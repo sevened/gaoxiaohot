@@ -1,0 +1,91 @@
+<?php if(!defined('SP')) exit();?><?php include template('comn.header'); ?><div class="index wrapper clearfix">
+    <div class="tit"> 
+        <a class="more" href="/dongtai/">更多</a>
+        <h2><a href="/dongtai/">搞笑动态图片</a></h2>
+    </div>
+    <div class="pic clearfix">
+<a target="_blank" href=""><img alt="肿么会这么可爱！" src="/sprite/images/2-1604061K05K32.gif"><span>肿么会这么可爱！</span></a>
+<a target="_blank" href=""><img alt="这是什么香肠吃了这么大副作用" src="/sprite/images/2-160405154643W5.gif"><span>这是什么香肠吃了这么大副作用</span></a>
+<a target="_blank" href=""><img alt="好魔性的眼镜，我也想要" src="/sprite/images/2-160406144154H6.gif"><span>好魔性的眼镜，我也想要</span></a>
+<a target="_blank" href=""><img alt="难道啤酒会丰胸" src="/sprite/images/2-160331111P21U.gif"><span>难道啤酒会丰胸</span></a>
+    </div>
+</div>
+<div class="index wrapper clearfix">
+    <div class="tit"> 
+        <a class="more" href="/quweitupian/">更多</a>
+        <h2><a href="/quweitupian/">搞笑图片</a></h2>
+    </div>
+    <div class="pic clearfix">
+<a target="_blank" href=""><img src="/sprite/images/2-160406144430558.jpg"><span>最终节操还是没有保住</span></a>
+<a target="_blank" href=""><img src="/sprite/images/2-1604051F94WW.jpg"><span>硬了，果然还是有反应的</span></a>
+<a target="_blank" href=""><img src="/sprite/images/2-160329162454308.jpg"><span>是这里的味道好？</span></a>
+<a target="_blank" href=""><img src="/sprite/images/092050D12-0-lp.jpg"><span>好邪恶的说</span></a>
+    </div>
+</div>
+<div class="index wrapper clearfix">
+    <div class="tit"> 
+        <a class="more" href="/gaoxiaoshipin/">更多</a>
+        <h2><a href="/mei/">最新美女图片</a></h2>
+    </div>
+    <div class="pic clearfix">
+<a target="_blank" href=""><img src="/sprite/images/153G320K-0-lp.jpg"><span>性感美女黄可沙滩比基尼蕾丝内衣</span></a>
+<a target="_blank" href=""><img src="/sprite/images/0914411940-0-lp.jpg"><span>慕羽茜私房写真婉约清新知性唯美</span></a>
+<a target="_blank" href=""><img src="/sprite/images/10404L294-0-lp.jpg"><span>孟真魅力无限婚纱写真曝光</span></a>
+<a target="_blank" href=""><img src="/sprite/images/10453V631-0-lp.jpg"><span>魔鬼身材美女莉仙儿极致红唇火辣</span></a>
+    </div>
+</div>
+<div class="index wrapper clearfix">
+<div class="tit"> 
+        <a class="more" href="/wenzixiaohua/">更多</a>
+        <h2><a href="/wenzixiaohua/">爆笑笑话</a></h2>
+    </div>
+</div>
+
+<div class="wrapper clearfix">
+<div class="main">
+<ul class="llist">
+<li><a target="_blank" href="">整容市场美丽陷阱 整容后遗症有哪些揭秘</a></li>
+<li><a target="_blank" href="">郭碧婷杀马特造型曝光 有二次元少女之感</a></li>
+<li><a target="_blank" href="">陈慧娴示爱邝祖德被拒 富三代邝祖德竟是同性恋</a></li>
+<li><a target="_blank" href="">邝祖德是同性恋吗?邝祖德个人资料年龄背景</a></li>
+<li><a target="_blank" href="">刘天健去世原因什么病死的?刘天健生平回顾</a></li>
+<li><a target="_blank" href="">闫妮复古写真曝光 透视纱裙性感短衣</a></li>
+<li><a target="_blank" href="">闫妮复古写真曝光 透视纱裙性感短衣</a></li>
+<li><a target="_blank" href="">闫妮复古写真曝光 透视纱裙性感短衣</a></li>
+<li><a target="_blank" href="">闫妮复古写真曝光 透视纱裙性感短衣</a></li>
+<li><a target="_blank" href="">闫妮复古写真曝光 透视纱裙性感短衣</a></li>
+<li><a target="_blank" href="">闫妮复古写真曝光 透视纱裙性感短衣</a></li>
+<li><a target="_blank" href="">闫妮复古写真曝光 透视纱裙性感短衣</a></li>
+<li><a target="_blank" href="">闫妮复古写真曝光 透视纱裙性感短衣</a></li>
+</ul>
+</div>
+<div class="aside">
+<div class="recommend">
+            </div>	
+<div id="adslide">
+<div class="ad300">
+<script type="text/javascript">BAIDU_CLB_fillSlot("1020189");</script>
+</div>
+</div>
+<div class="recommend">
+            <h2>推荐笑话</h2>
+            </div>	
+    	  <div class="mala-news fn-clear">
+            <ul>
+      <li><a href="" class="img-item"><img width="130" height="90" alt="懒到一定地步了。" src="/sprite/images/212940FL-0-lp.png"></a>
+        <p><a href="">懒到一定地步了。</a></p>
+      </li>
+<li><a href="" class="img-item"><img width="130" height="90" alt="抓拍飞机失事的瞬间6" src="/sprite/images/0252051324-0-lp.jpg"></a>
+        <p><a href="">抓拍飞机失事的瞬间6</a></p>
+      </li>
+<li><a href="" class="img-item"><img width="130" height="90" alt="我有特殊的挖鼻孔方式，你们都学不来" src="/sprite/images/005U35212-0-lp.jpg"></a>
+        <p><a href="">我有特殊的挖鼻孔方式</a></p>
+      </li>
+<li><a href="" class="img-item"><img width="130" height="90" alt="再忍一忍，马上就到你了" src="/sprite/images/0326301429-0-lp.jpg"></a>
+        <p><a href="">再忍一忍，马上就到你</a></p>
+      </li>
+
+    </ul>
+  </div>
+</div>
+</div><?php include template('comn.footer'); ?>

@@ -1,0 +1,40 @@
+<ul class="nav" id="side-menu">
+	<li class="nav-header">
+		<div class="dropdown profile-element">
+			<span><img alt="image" class="img-circle" src="/sprite/admin/images/profile_small.jpg"/></span>
+			<a data-toggle="dropdown" class="dropdown-toggle" href!="">
+				<span class="clear"><span class="block m-t-xs"><strong class="font-bold">admin</strong>
+				</span><span class="text-muted text-xs block">超级管理员 <!--<b class="caret"></b>--></span></span>
+			</a>
+			<!--<ul class="dropdown-menu animated fadeInRight m-t-xs">
+				<li><a href="form_avatar.html">修改头像</a>
+				</li>
+				<li><a href="profile.html">个人资料</a>
+				</li>
+				<li><a href="contacts.html">联系我们</a>
+				</li>
+				<li><a href="mailbox.html">信箱</a>
+				</li>
+				<li class="divider"></li>
+				<li><a href="login.html">安全退出</a>
+				</li>
+			</ul>-->
+		</div>
+		<div class="logo-element">Soua+</div>
+	</li>
+	<li {if _C_=='product' || _C_=='category'}class="active"{/if}>
+	    <a href="/admin/home.do"><i class="fa fa-th-large"></i> <span class="nav-label">APP分类管理</span> <span class="fa arrow"></span></a>
+	    <ul class="nav nav-second-level collapse">
+	    	<li {if _A_=='do' || _A_=='form'}class="active"{/if}><a href="/admin/product.do">图片列表</a></li>
+	        <li {if _A_=='category' || _A_=='addcategory'}class="active"{/if}><a href="/admin/category.category">类型列表</a></li>
+	        <!--<li {if _A_=='list' || _A_=='bagform'}class="active"{/if}><a href="/admin/bag.list">包列表</a></li>-->
+	    </ul>
+	</li>
+	<li {if _C_=='application'}class="active"{/if}>
+	    <a href="/admin/home.do"><i class="fa fa-table"></i> <span class="nav-label">应用管理</span> <span class="fa arrow"></span></a>
+	    <ul class="nav nav-second-level collapse">
+	    	<li {if _A_=='do' || _A_=='form'}class="active"{/if}><a href="/admin/application.do">游戏</a></li>
+	        <li {if _A_=='use' || _A_=='addcategory'}class="active"{/if}><a href="/admin/application.use">应用</a></li>
+	    </ul>
+	</li>
+</ul>

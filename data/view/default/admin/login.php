@@ -1,0 +1,35 @@
+<?php if(!defined('SP')) exit();?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<title>搜啊APP云控平台</title>
+<link href="/sprite/css/bootstrap.min.css" rel="stylesheet">
+<link href="/sprite/css/font-awesome.css" rel="stylesheet">
+<link href="/sprite/css/animate.css" rel="stylesheet">
+<link href="/sprite/css/style.css" rel="stylesheet">
+</head>
+<body class="gray-bg">
+<div class="middle-box text-center loginscreen animated fadeInDown">
+<div>
+<div>
+<h1 class="logo-name">Soua+</h1>
+</div>
+<h3>APP云控平台</h3>
+<form class="m-t" role="form" action="/admin/login.do" method="post">
+<div class="form-group">
+<input type="text" name="username" class="form-control" placeholder="用户名" required="">
+</div>
+<div class="form-group">
+<input type="password" name="password" class="form-control" placeholder="密码" required="">
+</div>
+<button type="submit" class="btn btn-primary block full-width m-b">登 录</button>
+</form>
+</div>
+</div>
+<script src="/sprite/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="/sprite/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>

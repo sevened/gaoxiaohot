@@ -1,0 +1,19 @@
+.toolbar{background:url('../images/icon-bar.png') top left repeat-x #fafafa;background-size:100% 0px;width:100%;height:50px;text-align:center;position:fixed;left:0;bottom:0;z-index:1010;}
+.toolbar a{padding:8px 0;outline:0;border:0;width:21.99%;background-color:transparent;color:#a0a0a0;text-align:center;display:inline-block;-webkit-box-flex:1;-webkit-flex:1;flex:1;cursor:pointer;}
+.toolbar .icon{display:block;padding:2px 0;background-color:transparent;color:#a0a0a0;text-align:center;font-size:24px}
+.toolbar .label{display:block;padding:2px 0 0;font-size:12px;line-height:12px;}
+.toolbar a.active,.toolbar a:hover{color:#FF0267}
+.ui-page{position:absolute;top:0;width:100%;overflow:auto;z-index:10;-webkit-overflow-scrolling:touch;}
+.toolbar + .ui-page{bottom:50px;}
+.toolbar .icon{background:url('../images/icon-bar.png') no-repeat;width:20px;height:20px;background-size:40px;display:inline-block;}
+.toolbar a .icon-home{background-position:0 2px;}
+.toolbar a:hover .icon-home,.toolbar a.active .icon-home{background-position:-20px 2px;}
+.toolbar a .icon-madou{background-position:0 -20px;}
+.toolbar a:hover .icon-madou,.toolbar a.active .icon-madou{background-position:-20px -20px;}
+.toolbar a .icon-notice{background-position:0 -41px;}
+.toolbar a:hover .icon-notice,.toolbar a.active .icon-notice{background-position:-20px -41px;}
+.toolbar a .icon-my{background-position:0 -65px;}
+.toolbar a:hover .icon-my,.toolbar a.active .icon-my{background-position:-20px -65px;}
+.toolbar a .icon-ebuy{background-position:0 -42px;}
+.toolbar a:hover .icon-ebuy,.toolbar a.active .icon-ebuy{background-position:-20px -42px;}
+

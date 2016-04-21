@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>网页无法打开</title>
+</head>
+<body>
+<style type="text/css">
+.system_error {border:1px solid #990000;padding:10px 20px;margin:10px;font: 13px/1.4em verdana;background: #fff;}
+code.source {white-space: pre;background: #fff;padding: 1em;display: block;margin: 1em 0;border: 1px solid #bedbeb;}
+.system_error .box {margin: 1em 0;background: #ebf2fa;padding: 10px;border: 1px solid #bedbeb;}
+.code.source em { background: #ffc; }
+</style>
+<div class="system_error">
+	<b style="color: #990000">Error</b>
+	<p>{$error}</p>
+	{if $backtrace = core_error::backtrace(1)}
+		{loop $backtrace $id $line}
+			<div class="box">
+				{if $id !== 0}
+					<b>Called by {echo (isset($line['class']) ? $line['class']. $line['type'] : '').$line['function']}()</b>
+				{/if}
+				in {$line['file']} [{$line['line']} ]
+				<code class="source">{$line['source']}</code>
+				{if isset($line['args'])}
+					<b>Function Arguments</b>
+					{echo dump($line['args'])}
+				{/if}
+			</div>
+		{/loop}
+	{else}
+		<p><b>{$file}</b> ({$line})</p>
+	{/if}
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<?php if(!defined('SP')) exit();?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0023)http://www.zbjuran.com/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>搞笑图片大全_动态搞笑图片_最新搞笑视频_爆笑笑话_居然搞笑网</title>
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="description" content="居然笑话网是最专业的笑话网站,是搞笑图片大全、搞笑动态图片、最新搞笑视频、于一体的搞笑资源大全。">
+<script src="http://cbjs.baidu.com/js/m.js" type="text/javascript"></script>
+<script src="/include/dedeajax2.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="/sprite/css/css.css">
+<script src="/sprite/js/js.js" type="text/javascript"></script>
+<script src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js" type="text/javascript" type="text/rocketscript"></script>
+</head>
+<body>
+<div class="header wrapper clearfix">
+<h1><a href="http://www.zbjuran.com/">搞笑热</a></h1>
+<span>笑话,笑话大全,爆笑笑话,冷笑话,幽默笑话</span>
+    <div class="search">
+        <form method="get" target="_blank" action="http://www.zbjuran.com/plus/search.php">
+            <input name="keyword" type="text" class="searchinput" placeholder="笑话">
+            <input type="submit" class="searchbutton" value="">
+            <input type="hidden" name="kwtype" value="0">
+            <input type="hidden" name="searchtype" value="title">
+        </form>
+    </div>
+</div>
+<div class="nav wrapper clearfix">
+<a class="first on" href="index.htm">笑话首页</a>
+<a href="baoxiaowenzi.htm">爆笑文字笑话</a>
+<a  href="gaoxiaotupian.htm">搞笑图片</a>
+<a href="dongtaitupian.htm">搞笑动态图片</a>
+<a href="gaoxiaoshipin.htm">搞笑视频</a>
+<a href="xiegif.htm">gif邪恶动态图</a>
+</div>

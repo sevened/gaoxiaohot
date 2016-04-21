@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <title>搜啊APP数据管理</title>
+    <link href="/sprite/admin/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/sprite/admin/css/font-awesome.css" rel="stylesheet">
+    <link href="/sprite/admin/css/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="/sprite/admin/css/animate.css" rel="stylesheet">
+    <link href="/sprite/admin/css/style.css" rel="stylesheet">
+    
+    <link href="/sprite/admin/css/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="/sprite/admin/css/switchery.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+        	{template admin/comn.menu}
+        </div>
+    </nav>
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <span class="m-r-sm text-muted welcome-message"><a href="/admin/home.do" title="返回首页"><i class="fa fa-home"></i></a>欢迎使用APP数据管理</span>
+                    </li>
+                    <li>
+                        <a href="/admin/login.logout">
+                            <i class="fa fa-sign-out"></i> 退出
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="wrapper wrapper-content animated fadeInRight">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="ibox float-e-margins">
+						<div class="ibox-title">
+							<h5>{if $cid}编辑{else}添加{/if}类型</h5>
+						</div>
+						<div class="ibox-content">
+							<form method="post" class="form-horizontal" action="/admin/category.addcategory" enctype="multipart/form-data">
+								<input type="hidden" name="cid" value="{$cid}"/>
+								<input type="hidden" name="form_t" value="{$form_t}"/>
+								<div class="form-group">
+									<label class="col-lg-2 control-label">类型名称</label>
+									<div class="col-lg-4">
+										<input type="text" class="form-control" name="name" value="{$category['category_name']}">
+									</div>
+								</div>
+								<div class="hr-line-dashed"></div>
+								<div class="form-group">
+									<label class="col-lg-2 control-label">是否推荐</label>
+									<div class="col-lg-4">
+										<input id="wtb" type="checkbox" class="js-switch" {if $category['status']==1}checked{/if}/>
+										<input type="hidden" name="status" class="js-switch_logo" value="{if $category['status']==""}0{else}{$category['status']}{/if}"/>
+									</div>
+								</div>
+								<div class="hr-line-dashed"></div>
+								<div class="form-group">
+									<label class="col-lg-2 control-label">图片</label>
+									<div class="col-lg-4">
+										<input type="file" class="form-control" name="file" value="{$category['img']}">
+									</div>
+								</div>
+								{if $category['img']}
+								<div class="hr-line-dashed"></div>
+								<div class="form-group">
+									<label class="col-lg-2 control-label">预览</label>
+									<div class="col-lg-4">
+										<img width="300px" height="219px" src="/{$category['img']}">
+									</div>
+								</div>
+								{/if}
+								<div class="hr-line-dashed"></div>
+								<div class="form-group">
+									<div class="col-sm-4 col-sm-offset-2">
+										<input class="btn btn-primary" name="submit" type="submit" value="保存内容"/>
+										<a class="btn btn-white" type="submit" href="/admin/product.do">取消</a>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+</div>
+<!-- Mainly scripts -->
+<script src="/sprite/admin/js/jquery-2.1.1.min.js"></script>
+<script src="/sprite/admin/js/bootstrap.min.js?v=3.4.0"></script>
+<script src="/sprite/admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="/sprite/admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<!-- Custom and plugin javascript -->
+<script src="/sprite/admin/js/hplus.js?v=2.2.0"></script>
+<script src="/sprite/admin/js/plugins/pace/pace.min.js"></script>
+<script src="/sprite/admin/js/plugins/switchery/switchery.js"></script>
+<!-- Page-Level Scripts -->
+<script type="text/javascript" src="/sprite/admin/js/require.js" data-main="/sprite/admin/js/no.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+	    var elem = document.querySelector('.js-switch');
+	    var switchery = new Switchery(elem, {
+	        color: '#1AB394'
+	    });
+	});
+
+	$("#wtb").change(function () {
+        if ($(this).is(":checked")) {
+            $(".js-switch_logo").val('1')
+        } else {
+            $(".js-switch_logo").val('0')
+        }
+    });
+
+</script>
+
+</body>
+</html>
